@@ -86,5 +86,22 @@ To https://github.com/Ausra123/aplankas.git
    7f21d08..197621e  main -> main
 branch 'main' set up to track 'origin/main'.
 
+Pagrindinės komandos atnaujinimui:
 ausra@DESKTOP-FNT4MCG MINGW64 ~/Desktop/aplankas (main)
-$
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+ausra@DESKTOP-FNT4MCG MINGW64 ~/Desktop/aplankas (main)
+$ git commit -m "atnaujintas Readme"
+[main 6d91b20] atnaujintas Readme
+ 1 file changed, 84 insertions(+), 1 deletion(-)
+
+ausra@DESKTOP-FNT4MCG MINGW64 ~/Desktop/aplankas (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+
+Jeigu reikia autentifikuoti save reikia pridėti savo vardą ir pašto adresą.
+
+git config --global user.name GitHubo vardas
+git config --globas user.email pasto.adresas@gmail.com (gitHubo paštas)
