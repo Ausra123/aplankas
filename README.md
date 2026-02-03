@@ -114,4 +114,5 @@ db5c69a (HEAD -> main, origin/main) atnaujinatas failas konfiguravimo komandomis
 7f21d08 first commit
  pereiti į kitą versją 
  git checkout 197621e 
- 
+ git checkout main (grįžtu į savo pagrindinę šaką)
+ git reset --hard db5c69a (grįžtu į pradinę padėti ir nelieka jokių versijų. Atsargiai!)
