@@ -105,3 +105,13 @@ Jeigu reikia autentifikuoti save reikia pridėti savo vardą ir pašto adresą.
 
 git config --global user.name GitHubo vardas
 git config --globas user.email pasto.adresas@gmail.com (gitHubo paštas)
+
+usra@DESKTOP-FNT4MCG MINGW64 ~/Desktop/aplankas (main)
+$ git log --oneline (parodo versijas)
+db5c69a (HEAD -> main, origin/main) atnaujinatas failas konfiguravimo komandomis
+6d91b20 atnaujintas Readme
+197621e pridėtas naujas failas index.html
+7f21d08 first commit
+ pereiti į kitą versją 
+ git checkout 197621e 
+ 
